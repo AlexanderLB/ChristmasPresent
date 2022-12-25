@@ -9,7 +9,7 @@ Fuentes Disponibles
 /*Modificando el fondo*/
 
 body{
-    background-image: url("/Christmas_Present/img/christmas_tree.jpg");
+    background-image: url("christmas_tree.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
