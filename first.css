@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Indie+Flower&family=Mountains+of+Christmas:wght@400;700&family=Rubik+Gemstones&display=swap');
+/*
+Fuentes Disponibles
+- Dancing Script
+- Indie Flower
+- Mountains of Christmas
+- Rubik Gemstones
+*/
+/*Modificando el background*/
+body{
+    background-image: linear-gradient(rgb(7, 38, 105), black, rgb(7, 38, 105));
+}
+
+/*Para volver al inicio*/
+.material-symbols-outlined {
+    font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+/*Modificando el estilo de letra de la pagina*/
+h1{
+    font-family: "Rubik Gemstones", "Mountains of Christmas", "Arial", "Sans Serif";
+    text-align: center;
+    font-size: 350%;
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 255));
+}
+
+a{
+    font-family: "Indie Flower", "Dancing Script";
+    font-size: 250%;
+}
+
+.links_home{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin: 0px 150px 0px 140px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-image: linear-gradient(to top right, grey ,rgb(223, 215, 215));
+}
+
+.links{
+    margin-top: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: flex;
+    margin: 30px;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-image: linear-gradient(to top right, grey ,rgb(223, 215, 215));
+}
+
+h2{
+    font-family: "Indie Flower";
+    font-size: 300%;
+    text-align: center;
+    text-decoration-line: underline;
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 255));
+}
+
+img{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    height: 90%;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.short_videos{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    height: 90%;
+    width: 90%;
+    margin-bottom: 10px;  
+}
